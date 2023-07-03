@@ -37,25 +37,6 @@ honeyForm.addEventListener("submit", function (event) {
       allProducts[i].isFav++;
     }
   }
-
-        // if (event.target.wildflowers.checked) {
-        //   wildFlowers.isFav++;
-        // }    
-        // if (event.target.springflowers.checked) {
-        //     springFlowers.isFav++;
-        //   }
-        // if (event.target.mountain.checked) {
-        //     mountain.isFav++;
-        //   }   
-        // if (event.target.highmountain.checked) {
-        //     highMountain.isFav++;
-        //   }    
-        // if (event.target.lavander.checked) {
-        //     lavander.isFav++;
-        // 
-        //   }  
-  
-  
   
   honeyForm.reset();
   

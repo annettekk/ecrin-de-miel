@@ -1,0 +1,16 @@
+#btn {
+    background-color: darkgrey;
+    color: black;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    height: 100%;
+    font-size: 2.8rem;
+    margin: 1rem;
+    pointer-events: visible;
+    
+  }
+  #btn:hover {
+    background-color: rgb(211, 187, 175);
+    cursor: pointer;
+  }
+  
