@@ -6,6 +6,7 @@
     <title>Honey house</title>
     <meta name="description" content="Best honey in the Alps!" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
@@ -13,6 +14,36 @@
             Ecrine de miel
         </h1>
     </header>
+    <div>
+        <h2 id="honeyChoice">What is your favourite honey?</h2>
+        <form id="honeyForm">
+            <label for="wildFlowers">
+              <input type="checkbox" name="wildflowers" id="wildFlowers" />
+              <span>Wild Flowers</span>
+            </label>
+            <label for="springFlowers">
+                <input type="checkbox" name="springflowers" id="springFlowers" />
+                <span>Spring Flowers</span>
+              </label>
+              <label for="mountain">
+                <input type="checkbox" name="mountain" id="mountain" />
+                <span>Mountain</span>
+              </label>
+              <label for="highMountain">
+                <input type="checkbox" name="highmountain" id="highMountain" />
+                <span>High Mountain</span>
+              </label>
+              <label for="lavander">
+                <input type="checkbox" name="lavander" id="lavander"/>
+                <span>Lavander</span>
+              </label>
+              <button type="submit">SUBMIT</button>
+            </form>
+    
+    <div id="btn">View Results</div>
+    <div>
+      <canvas id="chart"></canvas>
+    </div>
     <footer>
         <script src="app.js"></script>
     </footer>
