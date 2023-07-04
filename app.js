@@ -20,6 +20,9 @@ let allProducts = [];
    const mountain = new Product('mountain')
    const highMountain = new Product('highmountain')
    const lavander = new Product('lavander')
+   const chestnut = new Product('chestnut')
+   const acacia = new Product('acacia')
+   const pineTree = new Product('pinetree')
   
 honeyForm.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -29,8 +32,11 @@ honeyForm.addEventListener("submit", function (event) {
   const mountainSelected = event.target.mountain.checked;
   const highMountainSelected = event.target.highMountain.checked;
   const lavanderSelected = event.target.lavander.checked;
+  const chestnutSelected = event.target.chestnut.checked;
+  const acaciaSelected = event.target.acacia.checked;
+  const pineTreeSelected = event.target.pinetree.checked;
 
-  const inputSelection = [wildFlowersSelected, springFlowersSelected, mountainSelected, highMountainSelected, lavanderSelected];
+  const inputSelection = [wildFlowersSelected, springFlowersSelected, mountainSelected, highMountainSelected, lavanderSelected, chestnutSelected, acaciaSelected, pineTreeSelected];
 
   for (let i = 0; i < allProducts.length; i++) {
     if (inputSelection[i]) {
