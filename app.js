@@ -6,7 +6,7 @@ const honeyForm = document.getElementById("honeyForm");
 
 let checks = 0;
 let allProducts = [];
-
+// let newProducts = [];
 
  function Product(name) {
      this.name = name;
@@ -23,7 +23,19 @@ let allProducts = [];
    const chestnut = new Product('chestnut')
    const acacia = new Product('acacia')
    const pineTree = new Product('pinetree')
-  
+
+// Product.prototype.render = function () {
+//   let newProducts = allProducts;
+//   const containerElement = document.getElementById("honeyForm");
+//   const input = document.createElement('input');
+//   input.setAttribute('type', checkbox)
+//   //input.textContent = `${this.name}`
+//   containerElement.appendChild(input);
+
+//   newProducts.push(this)
+// }
+// console.log(newProducts)
+
 honeyForm.addEventListener("submit", function (event) {
         event.preventDefault();
 
@@ -43,10 +55,17 @@ honeyForm.addEventListener("submit", function (event) {
       allProducts[i].isFav++;
     }
   }
-  
+
+  // renderNewProducts();
+    
   honeyForm.reset();
   
     });
+
+    // function renderNewProducts() {
+    //   for (let i = 0; i < newProducts.length; i++) {
+    //     newProducts[i].render();
+    //   }}
 
     resultsButton.addEventListener("click", renderChart);
 

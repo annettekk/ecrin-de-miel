@@ -14,3 +14,10 @@
     cursor: pointer;
   }
   
+  div {
+    margin-bottom: 2rem
+  }
+
+  #reviews {
+    margin-bottom: 2rem
+  }
