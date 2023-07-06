@@ -307,5 +307,8 @@ h2 {
       margin-bottom: 2rem;
       margin-top: 1rem;
     }
-
+#chart {
+  max-width: 960px;
+  max-height: 500px;
+}
     }

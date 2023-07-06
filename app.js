@@ -85,7 +85,7 @@ honeyForm.addEventListener("submit", function (event) {
           {
             label: "checks",
             data: productClicks,
-            backgroundColor: ["#42032C"],
+            backgroundColor: ["#A1C2F1"],
             borderColor: ["#D36B00"],
             borderWidth: 1,
           },
