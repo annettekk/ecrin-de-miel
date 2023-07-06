@@ -16,7 +16,7 @@ Review.prototype.render = function () {
     
     const article = document.createElement('article');
     const space = document.createElement('space')
-    space.textContent = '...................'
+    space.textContent = '...........................................................'
     article.textContent = this.reviewtext;
     console.log(article.textContent)
     console.log(containerElement)
