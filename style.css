@@ -148,3 +148,13 @@ font-family:'Times New Roman', Times, serif;
     max-width: 960px;
     width: 90%;
   }
+
+  #newrev {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  #newdate {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
