@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    /* margin-left: 1rem; */
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 1rem;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: #B5C99A;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img{
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+.header-container nav ul{
+    display: flex;
+}
+
+.header-container nav ul li{
+    margin: 0 1rem;
+}
+
+main {
+    margin-bottom: 2rem;
+  }
+
+section {
+    margin-bottom: 2rem;
+  }
+  
+  section:last-of-type {
+    margin-bottom: 0;
+  }
+/*   
+  .img-section {
+    display: flex;
+    justify-content: space-between;
+  }
+   */
+  /* .content-section {
+    display: flex;
+    gap: 1rem;
+  } */
+  
+  .content-container {
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .content-container p {
+    /* max-height: 300px; */
+    overflow-y: scroll; 
+  }
+
+  footer {
+    max-width: 960px;
+    width: 90%;
+  }
+
+h2 {
+    margin: 1rem;
+    line-height: 1.3;
+}
+
+#honeyForm {
+    margin: 1rem;
+    line-height: 1.6;
+}
+
+#submitbtn {
+    margin: 1rem
+}
+
+#btn {
+    background-color: #B5C99A;
+    color: black;
+    padding: 0.5rem 1rem;
+    /* width: 100%; */
+    height: 100%;
+    font-size: 1.8rem;
+    /* margin: 1rem; */
+    pointer-events: visible;
+    max-width: 960px;
+    width: 90%;
+  }
+  #btn:hover {
+    background-color: #A1C2F1;
+    cursor: pointer;
+  }
+
+/* all initial styles above */
+
+/* media views below */
+
+@media (min-width: 700px){
+    .container {
+        /* width: 90%; */
+        max-width: 960px;
+        background-color: #FFE7A0;
+        /* margin: 0 auto; */
+      }
+    .header-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* max-height: 100px; */
+        background-color: #B5C99A;
+      }
+      header nav ul {
+        display: flex;
+        background-color: inherit;
+      }
+      
+      header nav li {
+        margin-left: 2rem;
+        background-color: inherit;
+      }
+      
+      header li a {
+        text-decoration: none;
+        color: inherit;
+        background-color: inherit;
+        font-size:larger;
+        margin: 1rem;
+      }
+      #logo {
+        max-height: 100px
+      }
+
+      .img-section {
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      .content-section {
+        display: flex;
+        gap: 1rem;
+      }
+}
+    
